@@ -8,7 +8,7 @@ from io import BytesIO
 
 # Set page config
 st.set_page_config(
-    page_title="Statistical Analysis Tool",
+    page_title="KaiTab",
     page_icon="📊",
     layout="wide"
 )
@@ -104,7 +104,7 @@ def data_viewer_editor():
 
 
 def main():
-    st.title("Statistical Analysis Tool")
+    st.title("KaiTab")
 
     # Initialize session state
     initialize_session_state()
